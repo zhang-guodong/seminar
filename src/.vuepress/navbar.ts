@@ -2,29 +2,36 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  "/news/",
   {
-    text: "Guide",
-    icon: "lightbulb",
-    prefix: "/guide/",
+    text: "Material",
+    icon: "book-medical",
+    prefix: "/material/",
     children: [
       {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
+        text: "Brochure",
+        icon: "file-image",
+        link: "/",
       },
       {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
+        text: "Slide",
+        icon: "file-powerpoint",
+        link: "/",
       },
+      "agenda",
     ],
   },
   {
-    text: "V2 Docs",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/",
+    text: "About Us",
+    icon: "user",
+    prefix: "/about/",
+    children: [
+      {
+        text: "University",
+        icon: "university",
+        link: "https://www.ujs.edu.cn/",
+      },
+      "team",
+    ],
   },
 ]);
