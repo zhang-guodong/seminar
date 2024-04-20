@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/seminar/",
 
   lang: "en-US",
-  title: "Docs Demo",
-  description: "A docs demo for vuepress-theme-hope",
+  title: "ICCI",
+  description: "International Congress of Cancer Immunotherapy",
 
   theme,
 

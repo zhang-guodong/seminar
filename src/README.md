@@ -1,280 +1,148 @@
 ---
 home: true
 icon: home
-title: Project home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+title: Home
+heroImage: /icci.png # https://theme-hope-assets.vuejs.press/logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Project name
-tagline: You can place the description of the project here.
+heroText: International Congress of Cancer Immunotherapy
+tagline: June 1-3,2024 │ Shanghai,China
 actions:
-  - text: How to Use
+  - text: Join us
     icon: lightbulb
-    link: ./demo/
+    link: ./demo/ # TODO
     type: primary
 
-  - text: Docs
-    link: ./guide/
+  - text: Details
+    icon: book
+    link: ./guide/ # TODO
 
 highlights:
-  - header: Easy to install
-    image: /assets/image/box.svg
+  - header: What is Cancer Immunotherapy?
+    description: Tumor immunotherapy is known as the hope of conquering cancer, whether it is the PD-1 immune checkpoint inhibitor therapy that has been approved in many cancers, or the adoptive cellular immunotherapy represented by CAR-T, as well as many cancer vaccines in full development, are just the tip of the immunological iceberg.
+    image: /assets/image/box.svg # TODO
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-    highlights:
-      - title: Run <code>pnpm create vuepress-theme-hope hope-project</code> to create a new project with this theme.
-      - title: Run <code>pnpm create vuepress-theme-hope add .</code> in your project root to create a new project with this theme.
 
-  - header: Add things you want in markdown
-    description: We extended the standard commonMark specification and added tons of new features for you.
-    image: /assets/image/markdown.svg
+  - header: What is ICCI?
+    description: ICCI, short for International Congress of Cancer Immunotherapy, is a global conference that brings together researchers, clinicians, and patients to discuss the latest advances in cancer immunotherapy.
+    image: /assets/image/advanced.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+    highlights:
+      - title: Authoritative
+        icon: landmark
+        details: ICCI is the leading international forum for cancer immunotherapy research and clinical trials.
+
+      - title: Historical
+        icon: history
+        details: ICCI has been held annually since 2019, and it has been a major event for cancer immunotherapy research and clinical trials.
+
+      - title: Inclusive
+        icon: hands-holding
+        details: ICCI is a comprehensive conference, with a wide range of topics and participants.
+
+  - header: What's New in the 6th?
+    image: /assets/image/features.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    features:
+      - title: Largest
+        icon: globe
+        details: Over 200 participants will attend the conference.
+
+      - title: Public
+        icon: user-group
+        details: The congress will be public.
+
+      - title: Interactive
+        icon: hands-helping
+        details: All participants can interact with each other.
+
+      - title: Digital
+        icon: microchip
+        details: All activities can be recorded and shared.
+
+      - title: Online
+        icon: network-wired
+        details: The congress will be held both in person and online.
+
+      - title: Sensitive
+        icon: user-secret
+        details: The information of the patients will be kept confidential.
+
+  - header: Topics
+    image: /assets/image/markdown.svg # TODO
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
     features:
-      - title: Links Check
-        icon: clipboard-check
-        details: Check markdown links
-        link: https://theme-hope.vuejs.press/guide/markdown/others.html#link-check
+      - title: Immuno-oncology Biomarkers
+        icon: circle-dot
 
-      - title: Hint box
-        icon: box-archive
-        details: Decorate Markdown content with styles
-        link: https://theme-hope.vuejs.press/guide/markdown/hint.html
+      - title: Next-Generation Cell Therapy
+        icon: circle-dot
 
-      - title: GFM alerts
-        icon: bell
-        details: GFM alert box
-        link: https://theme-hope.vuejs.press/guide/markdown/alert.html
+      - title: Immune checkpoint modulators
+        icon: circle-dot
 
-      - title: Tabs
-        icon: table-columns
-        details: Group similar content with tabs and switch them together
-        link: https://theme-hope.vuejs.press/guide/markdown/tabs.html
+      - title: Cytokine Therapy
+        icon: circle-dot
 
-      - title: Code Tabs
-        icon: code
-        details: Group similar codes with tabs
-        link: https://theme-hope.vuejs.press/guide/markdown/code-tabs.html
+      - title: Neoantigen Targeted Therapy 
+        icon: circle-dot
 
-      - title: Custom Align
-        icon: align-center
-        details: Let you decide to align paragraphs in the way you like
-        link: https://theme-hope.vuejs.press/guide/markdown/align.html
+      - title: Emerging Immunotherapy Targets
+        icon: circle-dot
 
-      - title: Attrs support
-        icon: code
-        details: Allow you to add attributes for Markdown content
-        link: https://theme-hope.vuejs.press/guide/markdown/attrs.html
+      - title: Cellular Models for Immunotherapy
+        icon: circle-dot
 
-      - title: Superscript and subscript support
-        icon: superscript
-        details: Your Markdown now support superscript and subscript
-        link: https://theme-hope.vuejs.press/guide/markdown/sup-sub.html
+      - title: Clinically relevant mouse models
+        icon: circle-dot
 
-      - title: Footnote support
-        icon: quote-left
-        details: Your Markdown now support footnotes
-        link: https://theme-hope.vuejs.press/guide/markdown/footnote.html
+      - title: Application of Nanomaterials in Anti-tumor 
+        icon: circle-dot
 
-      - title: Mark Support
-        icon: highlighter
-        details: Mark words and sentences in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/mark.html
+      - title: Immunotherapy Application of Artificial Intelligence and Big Data in Tumor Immunotherapy
+        icon: circle-dot
 
-      - title: Tasklist Support
-        icon: square-check
-        details: Use tasklist in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/tasklist.html
+      - title: Investments in Immuno-Oncology
+        icon: circle-dot
 
-      - title: image syntax
-        icon: image
-        details: improve syntax to specify size and color scheme
-        link: https://theme-hope.vuejs.press/guide/markdown/image.html
+      - title: Clinical Skills Training in Immuno-Oncology Therapy
+        icon: circle-dot
 
-      - title: Component Support
-        icon: puzzle-piece
-        details: Easily insert components in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/component.html
-
-      - title: Chart Support
-        icon: chart-simple
-        details: Display charts in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/chartjs.html
-
-      - title: Flowchart Support
-        icon: route
-        details: Create your flowchart in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/flowchart.html
-
-      - title: Mermaid Support
-        icon: chart-pie
-        details: Add mermaid diagram in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/mermaid.html
-
-      - title: Tex Support
-        icon: square-root-variable
-        details: Markdown now have Tex Support so you can write your formula
-        link: https://theme-hope.vuejs.press/guide/markdown/tex.html
-
-      - title: Include snippet Support
-        icon: fab fa-markdown
-        details: split your docs with different parts and import them in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/include.html
-
-      - title: Playground Support
-        icon: code
-        details: You can add playground in Markdown files
-        link: https://theme-hope.vuejs.press/guide/markdown/playground.html
-
-      - title: Vue playground Support
-        icon: fab fa-vuejs
-        details: Show living vue component in playground
-        link: https://theme-hope.vuejs.press/guide/markdown/vue-playground.html
-
-      - title: Sandpack playground Support
-        icon: code
-        details: A live coding environment driven by Sandpack.
-        link: https://theme-hope.vuejs.press/guide/markdown/sandpack.html
-
-      - title: Code Demo Support
-        icon: laptop-code
-        details: You can insert code demo easily
-        link: https://theme-hope.vuejs.press/guide/markdown/demo.html
-
-      - title: Presentation Support
-        icon: person-chalkboard
-        details: Insert presentation in Markdown files via Reveal.js
-        link: https://theme-hope.vuejs.press/guide/markdown/revealjs/
-
-  - header: Improved layouts
-    description: An awesome responsive layout with full a11y support.
+  - header: Participants
+    # description: An awesome responsive layout with full a11y support.
     image: /assets/image/layout.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
-      - title: Layout
-        icon: object-group
-        details: Improved navbar, sidebar, page nav and new breadcrumb, footer and toc. We also bring you a brand new homepage.
-        link: https://theme-hope.vuejs.press/guide/layout/
+      - title: Guodong Zhang
+        icon: user-doctor
+        details: Senior Researcher
+        link: https://github.com/zhang-guodong
 
-      - title: Dark Mode
-        icon: circle-half-stroke
-        details: Switch between light and dark modes freely
-        link: https://theme-hope.vuejs.press/guide/interface/darkmode.html
+      - title: Yingying Cao
+        icon: user-graduate
+        details: Graduate student at Jiangsu University
+        link: https://github.com/zhang-guodong
 
-      - title: Customizable Theme Color
-        icon: palette
-        details: Customize theme color
-        link: https://theme-hope.vuejs.press/guide/interface/theme-color.html
+      - title: Meiying Zhang
+        icon: user-nurse
+        details: Postdoctoral researcher at Jiangsu University
+        link: https://github.com/zhang-guodong
 
-      - title: Slide Page
-        icon: person-chalkboard
-        details: Adding slide pages to display things you like
-        link: https://theme-hope.vuejs.press/guide/layout/slides
-
-      - title: More
-        icon: ellipsis
-        details: RTL layout, print support, fullscreen button, etc.
-        link: https://theme-hope.vuejs.press/guide/interface/others.html
-
-  - header: New features
-    image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
-    features:
-      - title: Pageviews and Comments
-        icon: comment-dots
-        details: Start pageview statistics and comment support with Waline
-        link: https://theme-hope.vuejs.press/guide/feature/comment.html
-
-      - title: Article Information
-        icon: circle-info
-        details: Add author, writing date, reading time, word count and other information to your article
-        link: https://theme-hope.vuejs.press/guide/feature/page-info.html
-
-      - title: Article Encryption
-        icon: lock
-        details: Encrypt you articles based on page links, so that only the one you want could see them
-        link: https://theme-hope.vuejs.press/guide/feature/encrypt.html
-
-      - title: Search
-        icon: search
-        details: Support docsearch and client search
-        link: https://theme-hope.vuejs.press/guide/feature/search.html
-
-      - title: Copy Code Blocks
-        icon: copy
-        details: Copy codes with one click in code blocks
-        link: https://theme-hope.vuejs.press/guide/feature/copy-code.html
-
-      - title: Image Preview
-        icon: image
-        details: Support viewing, zooming, sharing your page images like a gallery
-        link: https://theme-hope.vuejs.press/guide/feature/photo-swipe.html
-
-  - header: Blogging
-    description: Create personal blog with theme
-    image: /assets/image/blog.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-    highlights:
-      - title: Blog features
-        icon: blog
-        details: Listing your articles with their dates, tags and categories
-        link: https://theme-hope.vuejs.press/guide/blog/intro.html
-
-      - title: Blog homepage
-        icon: blog
-        details: New blog homepage
-        link: https://theme-hope.vuejs.press/guide/blog/home.html
-
-      - title: Blogger info
-        icon: circle-info
-        details: Customize avatar, name, slogan, introduction and social links
-        link: https://theme-hope.vuejs.press/guide/blog/blogger.html
-
-      - title: Timeline
-        icon: clock
-        details: Read through blog posts in a timeline
-        link: https://theme-hope.vuejs.press/guide/blog/timeline.html
-
-  - header: Advanced
-    description: Advanced features to improve site SEO and user experience
-    image: /assets/image/advanced.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
-    highlights:
-      - title: SEO Enhancement
-        icon: dumbbell
-        details: Optimize pages for search engines
-        link: https://theme-hope.vuejs.press/guide/advanced/seo.html
-
-      - title: Sitemap
-        icon: sitemap
-        details: Generate a Sitemap for your site
-        link: https://theme-hope.vuejs.press/guide/advanced/sitemap.html
-
-      - title: Feed
-        icon: rss
-        details: Generate feed to allow users to subscribe it
-        link: https://theme-hope.vuejs.press/guide/advanced/feed.html
-
-      - title: PWA
-        icon: mobile-screen
-        details: Make your site more like an APP
-        link: https://theme-hope.vuejs.press/guide/advanced/pwa.html
+  - header: Scan the QR code to join us!
+    image: /qrcode.png # /assets/image/blog.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 
 copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
+footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-2024 Guodong Zhang
 ---
-
-This is an example of a project homepage. You can place your main content here.
-
-To use this layout, you need to set `home: true` in the page front matter.
-
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://theme-hope.vuejs.press/guide/layout/home/).
