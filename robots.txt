@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/seminar/sitemap.xml
+Sitemap: https://zhang-guodong.github.io/seminar/seminar/sitemap.xml
