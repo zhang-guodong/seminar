@@ -3,12 +3,12 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://zhang-guodong.github.io/seminar/",
 
-  author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
-  },
+  // author: {
+  //   name: "Guodong Zhang",
+  //   url: "https://github.com/zhang-guodong",
+  // },
 
   iconAssets: "fontawesome-with-brands",
 
@@ -17,6 +17,9 @@ export default hopeTheme({
   repo: "zhang-guodong/seminar",
 
   docsDir: "src",
+
+  darkmode: "disable",
+  favicon: "/icci.ico",
 
   // navbar
   navbar,
@@ -50,7 +53,7 @@ export default hopeTheme({
     },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "PDF"],
     },
 
     // All features are enabled for demo, only preserve features you need here
