@@ -6,4 +6,4 @@ icon: "calendar-days"
 
 ![](/assets/image/news.jpg)
 
-<Catalog hideHeading=True />
+<Catalog hideHeading />

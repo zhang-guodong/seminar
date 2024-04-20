@@ -6,4 +6,4 @@ icon: newspaper
 
 ![](/assets/image/news.jpg)
 
-<Catalog hideHeading=True />
+<Catalog hideHeading />
