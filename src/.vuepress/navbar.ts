@@ -8,16 +8,8 @@ export default navbar([
     icon: "book-medical",
     prefix: "/material/",
     children: [
-      {
-        text: "Brochure",
-        icon: "file-image",
-        link: "/",
-      },
-      {
-        text: "Slide",
-        icon: "file-powerpoint",
-        link: "/",
-      },
+      "brochure",
+      "poster",
       "agenda",
     ],
   },
