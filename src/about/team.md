@@ -2,6 +2,8 @@
 title: Team
 index: false
 icon: users
+sidebar: false
+article: false
 ---
 
 ```component VPCard
