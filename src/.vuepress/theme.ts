@@ -5,14 +5,14 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://zhang-guodong.github.io/seminar/",
 
-  // author: {
-  //   name: "Guodong Zhang",
-  //   url: "https://github.com/zhang-guodong",
-  // },
+  author: {
+    name: "ICCI",
+    url: "https://github.com/zhang-guodong",
+  },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/icci.png", // "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/icci.ico",
 
   repo: "zhang-guodong/seminar",
 
@@ -27,9 +27,29 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "Default footer",
+  displayFooter: false,
 
-  displayFooter: true,
+  blog: {
+    description: "International Congress of Cancer Immunotherapy",
+    medias: {
+      Baidu: "https://baidu.com",
+      BiliBili: "https://bilibili.com",
+      Dingding: "https://dingtalk.com",
+      Facebook: "https://facebook.com",
+      GitHub: "https://github.com",
+      Gmail: "https://gmail.com",
+      Instagram: "https://instagram.com",
+      Linkedin: "https://linkedin.com",
+      QQ: "https://qq.com",
+      Qzone: "https://qzone.qq.com",
+      Reddit: "https://reddit.com",
+      Twitter: "https://twitter.com",
+      WeChat: "https://wechat.com",
+      Weibo: "https://weibo.com",
+      Whatsapp: "https://whatsapp.com",
+      Youtube: "https://youtube.com",
+    },
+  },
 
   encrypt: {
     config: {
@@ -42,15 +62,17 @@ export default hopeTheme({
   },
 
   plugins: {
+    blog: true,
+    
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     components: {
       components: ["Badge", "VPCard", "PDF"],
